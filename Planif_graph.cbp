@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Planif_graph" />
+		<Option execution_dir="E:/Documents/alx/cours/esix_3A/systemes_embarques/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Planif_graph" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Planif_graph" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="maPile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maPile.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mouvement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mouvement.h" />
+		<Unit filename="plannification.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="plannification.h" />
+		<Unit filename="plannificationAlgo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="plannificationAlgo.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
